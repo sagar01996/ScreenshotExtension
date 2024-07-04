@@ -1,45 +1,29 @@
-{  
-  "task1": {
-    "script_name": "script1.jmx",
-    "user_files": "userfile1.csv",  
-    "data_files": [
-      {
-        "FILE1": "file1.csv",
-        "FILE2": "file1.csv"
+{
+    "manifest_version": 2,
+    "name": "Screenshot Extension - V2",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "desktopCapture",
+      "tabs",
+      "downloads"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
       }
-    ]
-  },
-  "task2": {
-    "script_name": "script1.jmx",
-    "user_files": "userfile2.csv",
-    "data_files": [
-      {
-        "FILE1": "file2.csv",
-        "FILE2": "file2.csv"
-      }
-    ]
-  },
-  "task3": {
-    "script_name": "script1.jmx",
-    "user_files": "userfile3.csv",
-    "data_files": [
-      {
-        "FILE1": "file3.csv",
-        "FILE2": "file3.csv"
-      }
-    ]
-  },
-  "task4": {
-    "script_name": "script2.jmx",
-    "user_files": "userfile4.csv",
-    "data_files": [
-      {
-        "FILE1": "file1.csv"
-      }
-    ]
-  },
-  "task5": {
-    "script_name": "script3.jmx",
-    "user_files": "userfile5.csv"
-  }
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
 }
