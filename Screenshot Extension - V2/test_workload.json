@@ -1,45 +1,21 @@
-{  
-  "task1": {
+{
+  "jmeter_version" : "5.6.3",
+  "max_memory" : "64G",
+  "tasks": [
+    {
+    "task_name": "task1",
     "script_name": "script1.jmx",
-    "user_files": "userfile1.csv",  
-    "data_files": [
-      {
-        "FILE1": "file1.csv", 
-        "FILE2": "file1.csv"
-      }
-    ]
-  },
-  "task2": {
+    "user_files": "userfile1.csv"
+    },
+    {
+    "task_name": "task2",
     "script_name": "script1.jmx",
-    "user_files": "userfile2.csv",
-    "data_files": [
-      {
-        "FILE1": "file2.csv",
-        "FILE2": "file2.csv"
-      }
-    ]
-  },
-  "task3": {
+    "user_files": "userfile2.csv"
+    },
+    {
+    "task_name": "task3",
     "script_name": "script1.jmx",
-    "user_files": "userfile3.csv",
-    "data_files": [
-      {
-        "FILE1": "file3.csv",
-        "FILE2": "file3.csv"
-      }
-    ]
-  },
-  "task4": {
-    "script_name": "script2.jmx",
-    "user_files": "userfile4.csv",
-    "data_files": [
-      {
-        "FILE1": "file1.csv"
-      }
-    ]
-  },
-  "task5": {
-    "script_name": "script3.jmx",
-    "user_files": "userfile5.csv"
-  }
+    "user_files": "userfile3.csv"
+    }
+  ]
 }
