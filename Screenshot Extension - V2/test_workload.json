@@ -1,6 +1,5 @@
 {
   "jmeter_version" : "5.6.3",
-  "max_memory" : "64G",
   "tasks": [
     {
     "task_name": "task1",
