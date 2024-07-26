@@ -4,17 +4,32 @@
     {
     "task_name": "task1",
     "script_name": "script1.jmx",
-    "user_files": "userfile1.csv"
+    "user_files": "users1.csv",
+    "data_files": {
+        "ACCOUNTS" : "accounts.csv",
+        "OPPORTUNITIES" : "opportunities.csv"  
+      }
     },
     {
     "task_name": "task2",
-    "script_name": "script1.jmx",
-    "user_files": "userfile2.csv"
+    "script_name": "script2.jmx",
+    "user_files": "users2.csv",
+    "data_files": {
+        "ACCOUNTS" : "accounts.csv" 
+      }
     },
     {
     "task_name": "task3",
-    "script_name": "script1.jmx",
-    "user_files": ""
+    "script_name": "script3.jmx",
+    "user_files": "users3.csv",
+    "data_files": {
+        "OPPORTUNITIES" : "opportunities.csv"  
+      }
+    },
+    {
+      "task_name": "task4",
+      "script_name": "script4.jmx",
+      "user_files": "users3.csv"
     }
   ]
 }
