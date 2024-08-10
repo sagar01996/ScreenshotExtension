@@ -26,10 +26,6 @@
     "data_files": {
         "opportunity_file" : "opportunities.csv"  
       }
-    },
-    {
-      "task_name": "task4",
-      "script_name": "script4.jmx"
     }
   ]
 }
