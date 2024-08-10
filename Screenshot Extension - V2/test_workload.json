@@ -6,8 +6,9 @@
     "script_name": "script1.jmx",
     "user_files": "users1.csv",
     "data_files": {
-        "ACCOUNTS" : "accounts.csv",
-        "OPPORTUNITIES" : "opportunities.csv"  
+        "account_file" : "accounts.csv",
+        "opportunity_file" : "opportunities.csv",
+        "contact_file" : "contacts.csv"
       }
     },
     {
@@ -15,7 +16,7 @@
     "script_name": "script2.jmx",
     "user_files": "users2.csv",
     "data_files": {
-        "ACCOUNTS" : "accounts.csv" 
+        "account_file" : "accounts.csv" 
       }
     },
     {
@@ -23,13 +24,12 @@
     "script_name": "script3.jmx",
     "user_files": "users3.csv",
     "data_files": {
-        "OPPORTUNITIES" : "opportunities.csv"  
+        "opportunity_file" : "opportunities.csv"  
       }
     },
     {
       "task_name": "task4",
-      "script_name": "script4.jmx",
-      "user_files": "users3.csv"
+      "script_name": "script4.jmx"
     }
   ]
 }
